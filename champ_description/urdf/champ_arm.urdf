@@ -19,13 +19,13 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://champ_description/meshes/base.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://champ_description/meshes/chassis.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://champ_description/meshes/base.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://champ_description/meshes/chassis.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="black"/>
     </visual>
