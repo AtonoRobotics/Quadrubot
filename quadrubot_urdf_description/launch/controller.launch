@@ -1,0 +1,9 @@
+<launch>
+
+<rosparam file="$(find quadrubot_urdf_description)/launch/controller.yaml" command="load"/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="quadrubot_urdf" args="LH_femur_position_controller RF_hip_position_controller LF_hip_position_controller LH_hip_position_controller RH_hip_position_controller LF_femur_position_controller LH_tibia_position_controller RH_femur_position_controller RH_tibia_position_controller RF_Femur_position_controller RF_tibia_position_controller LF_tibia_position_controller joint_state_controller "/>
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+  <remap from="/joint_states" to="/quadrubot_urdf/joint_states"/>
+</node>
+
+</launch>

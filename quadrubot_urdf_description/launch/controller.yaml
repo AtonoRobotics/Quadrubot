@@ -1,0 +1,55 @@
+quadrubot_urdf_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  LH_femur_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LH_femur
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RF_hip_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RF_hip
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LF_hip_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LF_hip
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LH_hip_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LH_hip
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RH_hip_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RH_hip
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LF_femur_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LF_femur
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LH_tibia_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LH_tibia
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RH_femur_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RH_femur
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RH_tibia_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RH_tibia
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RF_Femur_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RF_Femur
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  RF_tibia_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: RF_tibia
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  LF_tibia_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: LF_tibia
+    pid: {p: 100.0, i: 0.01, d: 10.0}
