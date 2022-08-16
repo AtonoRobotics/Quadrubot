@@ -25,7 +25,7 @@
   </collision>
 </link>
 
-<link name="LH_femur_1">
+<link name="LH_femur">
   <inertial>
     <origin xyz="0.007999966833522235 -0.00023763115376576605 -0.05206077683730421" rpy="0 0 0"/>
     <mass value="0.3755220822299566"/>
@@ -34,19 +34,19 @@
   <visual>
     <origin xyz="-0.08 -0.117973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LH_femur_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/femur.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.08 -0.117973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LH_femur_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/femur.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="hip_right_v6_1">
+<link name="LH_hip">
   <inertial>
     <origin xyz="-0.004396117471655678 -0.0280002447595447 -0.010174881105460217" rpy="0 0 0"/>
     <mass value="0.7107341380350983"/>
@@ -55,19 +55,19 @@
   <visual>
     <origin xyz="0.05025 0.079973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/hip_right_v6_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/L_hip.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.05025 0.079973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/hip_right_v6_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/L_hip.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="hip_left_v2__1__1">
+<link name="RH_hip">
   <inertial>
     <origin xyz="0.004396117471655747 -0.02800024475954467 -0.01017488110546024" rpy="0 0 0"/>
     <mass value="0.7107341380350983"/>
@@ -76,19 +76,19 @@
   <visual>
     <origin xyz="-0.05025 0.079973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/hip_left_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/R_hip.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.05025 0.079973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/hip_left_v2__1__1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/R_hip.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="hip_left_v2_1">
+<link name="RF_hip">
   <inertial>
     <origin xyz="0.004396117471655685 0.028000244759544643 -0.010174881105460238" rpy="0 0 0"/>
     <mass value="0.7107341380350983"/>
@@ -97,40 +97,40 @@
   <visual>
     <origin xyz="-0.05025 -0.079973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/hip_left_v2_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/R_hip.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.05025 -0.079973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/hip_left_v2_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/R_hip.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="hip_right_v6__1__1">
+<link name="LF_hip">
   <inertial>
-    <origin xyz="-0.0023806840931287626 0.028000244759544643 -0.010825272803639804" rpy="0 0 0"/>
+    <origin xyz="-0.0043961174716557055 0.02800024475954467 -0.010174881105460226" rpy="0 0 0"/>
     <mass value="0.7107341380350983"/>
-    <inertia ixx="0.00028" iyy="0.000197" izz="0.000287" ixy="0.0" iyz="-0.0" ixz="-1e-06"/>
+    <inertia ixx="0.00028" iyy="0.000197" izz="0.000287" ixy="0.0" iyz="-0.0" ixz="1e-06"/>
   </inertial>
   <visual>
     <origin xyz="0.05025 -0.079973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/hip_right_v6__1__1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/L_hip.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.05025 -0.079973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/hip_right_v6__1__1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/L_hip.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="LF_femur_1">
+<link name="LF_femur">
   <inertial>
     <origin xyz="0.00799996683352211 -2.4475954325808846e-07 -0.052061320285349356" rpy="0 0 0"/>
     <mass value="0.3755220822299566"/>
@@ -139,19 +139,19 @@
   <visual>
     <origin xyz="-0.08 0.097973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LF_femur_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/femur.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.08 0.097973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LF_femur_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/femur.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="LF_foot_1">
+<link name="LF_foot">
   <inertial>
     <origin xyz="3.0443070174607234e-06 0.00011974192622413171 -0.0036898240176088948" rpy="0 0 0"/>
     <mass value="0.010948791496213523"/>
@@ -160,19 +160,19 @@
   <visual>
     <origin xyz="-0.08675 0.189835 0.193867" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LF_foot_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/foot.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.08675 0.189835 0.193867" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LF_foot_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/foot.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="LH_tibia_1">
+<link name="LH_tibia">
   <inertial>
     <origin xyz="-0.009622915734244925 -0.04376557953636863 -0.04018872915444033" rpy="0 0 0"/>
     <mass value="0.3145238210983526"/>
@@ -181,19 +181,19 @@
   <visual>
     <origin xyz="-0.096 -0.117425 0.109149" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LH_tibia_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/L_tibia.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.096 -0.117425 0.109149" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LH_tibia_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/L_tibia.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="LH_foot_1">
+<link name="LH_foot">
   <inertial>
     <origin xyz="3.0443070160174335e-06 0.0001029473381414861 -0.0036904656393174917" rpy="0 0 0"/>
     <mass value="0.010948791496213523"/>
@@ -202,82 +202,82 @@
   <visual>
     <origin xyz="-0.08675 -0.025177 0.193445" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LH_foot_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/foot.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.08675 -0.025177 0.193445" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LH_foot_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/foot.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="RH_femur_1">
+<link name="RH_femur">
   <inertial>
-    <origin xyz="0.000603951922637222 0.027070665878713845 -0.04517997413000263" rpy="0 0 0"/>
+    <origin xyz="-0.007999966833522998 0.05206156504489351 -1.528291382335567e-15" rpy="0 0 0"/>
     <mass value="0.3755220822299566"/>
-    <inertia ixx="0.000591" iyy="0.000442" izz="0.000194" ixy="-4.9e-05" iyz="0.000251" ixz="8e-05"/>
+    <inertia ixx="0.000606" iyy="2.3e-05" izz="0.000598" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.079457 -0.117973 -0.005192" rpy="0 0 0"/>
+    <origin xyz="0.08 -0.117973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RH_femur_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/femur.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.079457 -0.117973 -0.005192" rpy="0 0 0"/>
+    <origin xyz="0.08 -0.117973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RH_femur_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/femur.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="RH_tibia_1">
+<link name="RH_tibia">
   <inertial>
-    <origin xyz="0.020747841120931143 0.0006404282430508834 -0.05650079826905842" rpy="0 0 0"/>
+    <origin xyz="0.009622915728666817 -0.04358118970385538 -0.040388529207220226" rpy="0 0 0"/>
     <mass value="0.31452387445863506"/>
-    <inertia ixx="0.000582" iyy="0.000587" izz="5.4e-05" ixy="1.5e-05" iyz="-7.8e-05" ixz="9.9e-05"/>
+    <inertia ixx="0.0006" iyy="0.000206" izz="0.000417" ixy="-5e-06" iyz="-0.000266" ixz="-4e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.07567 -0.18037 0.098482" rpy="0 0 0"/>
+    <origin xyz="0.096 -0.237973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RH_tibia_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/R_tibia.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.07567 -0.18037 0.098482" rpy="0 0 0"/>
+    <origin xyz="0.096 -0.237973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RH_tibia_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/R_tibia.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="RH_foot_1">
+<link name="RH_foot">
   <inertial>
-    <origin xyz="0.00045810214696603846 0.002813546931035832 -0.002345860838545988" rpy="0 0 0"/>
+    <origin xyz="3.1106399750457925e-06 0.00011923144531283958 -0.0036898240176075625" rpy="0 0 0"/>
     <mass value="0.010948791496213523"/>
-    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.042823 -0.181413 0.2194" rpy="0 0 0"/>
+    <origin xyz="0.08675 -0.146112 0.073867" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RH_foot_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/foot.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.042823 -0.181413 0.2194" rpy="0 0 0"/>
+    <origin xyz="0.08675 -0.146112 0.073867" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RH_foot_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/foot.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="RF_femur_1">
+<link name="RF_femur">
   <inertial>
     <origin xyz="-0.007999966833521999 -2.447595432442107e-07 -0.05206132028534933" rpy="0 0 0"/>
     <mass value="0.3755220822299566"/>
@@ -286,19 +286,19 @@
   <visual>
     <origin xyz="0.08 0.097973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RF_femur_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/femur.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.08 0.097973 -0.01085" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RF_femur_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/femur.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="RF_tibia_1">
+<link name="RF_tibia">
   <inertial>
     <origin xyz="0.009622915728667969 -0.0435816792229442 -0.040388529207220275" rpy="0 0 0"/>
     <mass value="0.31452387445863506"/>
@@ -307,19 +307,19 @@
   <visual>
     <origin xyz="0.096 0.097973 0.10915" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RF_tibia_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/R_tibia.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.096 0.097973 0.10915" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RF_tibia_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/R_tibia.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="RF_foot_1">
+<link name="RF_foot">
   <inertial>
     <origin xyz="3.1106399753649816e-06 0.00011974192622413171 -0.0036898240176076458" rpy="0 0 0"/>
     <mass value="0.010948791496213523"/>
@@ -328,19 +328,19 @@
   <visual>
     <origin xyz="0.08675 0.189835 0.193867" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RF_foot_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/foot.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0.08675 0.189835 0.193867" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/RF_foot_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/foot.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="LF_tibia_1">
+<link name="LF_tibia">
   <inertial>
     <origin xyz="-0.009622915734244203 -0.043581684927930076 -0.040388533468682014" rpy="0 0 0"/>
     <mass value="0.3145238210983526"/>
@@ -349,123 +349,123 @@
   <visual>
     <origin xyz="-0.096 0.097973 0.10915" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LF_tibia_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/L_tibia.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.096 0.097973 0.10915" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="package://quadrubot_urdf_description/meshes/LF_tibia_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="package://quadrubot_urdf_description/meshes/L_tibia.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
 <joint name="LH_femur" type="continuous">
   <origin xyz="0.02975 0.038 0.0" rpy="0 0 0"/>
-  <parent link="hip_left_v2_1"/>
-  <child link="LH_femur_1"/>
+  <parent link="RF_hip"/>
+  <child link="LH_femur"/>
   <axis xyz="-1.0 0.0 0.0"/>
 </joint>
 
 <joint name="RF_hip" type="continuous">
   <origin xyz="-0.05025 -0.079973 0.01085" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="hip_right_v6_1"/>
+  <child link="LH_hip"/>
   <axis xyz="0.0 1.0 -0.0"/>
 </joint>
 
 <joint name="LF_hip" type="continuous">
   <origin xyz="0.05025 -0.079973 0.01085" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="hip_left_v2__1__1"/>
+  <child link="RH_hip"/>
   <axis xyz="0.0 -1.0 0.0"/>
 </joint>
 
 <joint name="LH_hip" type="continuous">
   <origin xyz="0.05025 0.079973 0.01085" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="hip_left_v2_1"/>
+  <child link="RF_hip"/>
   <axis xyz="-0.0 -1.0 0.0"/>
 </joint>
 
 <joint name="RH_hip" type="continuous">
   <origin xyz="-0.05025 0.079973 0.01085" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="hip_right_v6__1__1"/>
+  <child link="LF_hip"/>
   <axis xyz="-0.0 1.0 -0.0"/>
 </joint>
 
 <joint name="LF_femur" type="continuous">
   <origin xyz="0.02975 -0.018 0.0" rpy="0 0 0"/>
-  <parent link="hip_left_v2__1__1"/>
-  <child link="LF_femur_1"/>
+  <parent link="RH_hip"/>
+  <child link="LF_femur"/>
   <axis xyz="-1.0 -0.0 0.0"/>
 </joint>
 
 <joint name="LF_foot" type="fixed">
   <origin xyz="-0.00925 -0.091862 -0.084717" rpy="0 0 0"/>
-  <parent link="LF_tibia_1"/>
-  <child link="LF_foot_1"/>
+  <parent link="LF_tibia"/>
+  <child link="LF_foot"/>
 </joint>
 
 <joint name="LH_tibia" type="continuous">
   <origin xyz="0.016 -0.000548 -0.119999" rpy="0 0 0"/>
-  <parent link="LH_femur_1"/>
-  <child link="LH_tibia_1"/>
+  <parent link="LH_femur"/>
+  <child link="LH_tibia"/>
   <axis xyz="1.0 -0.0 -0.0"/>
 </joint>
 
 <joint name="LH_foot" type="fixed">
   <origin xyz="-0.00925 -0.092248 -0.084296" rpy="0 0 0"/>
-  <parent link="LH_tibia_1"/>
-  <child link="LH_foot_1"/>
+  <parent link="LH_tibia"/>
+  <child link="LH_foot"/>
 </joint>
 
 <joint name="RH_femur" type="continuous">
-  <origin xyz="-0.029207 0.038 -0.005658" rpy="0 0 0"/>
-  <parent link="hip_right_v6__1__1"/>
-  <child link="RH_femur_1"/>
-  <axis xyz="-0.981747 -0.0 -0.190193"/>
+  <origin xyz="-0.02975 0.038 0.0" rpy="0 0 0"/>
+  <parent link="LF_hip"/>
+  <child link="RH_femur"/>
+  <axis xyz="-1.0 -0.0 -0.0"/>
 </joint>
 
 <joint name="RH_tibia" type="continuous">
-  <origin xyz="0.003787 0.062397 -0.103674" rpy="0 0 0"/>
-  <parent link="RH_femur_1"/>
-  <child link="RH_tibia_1"/>
-  <axis xyz="-0.981747 -0.0 -0.190193"/>
+  <origin xyz="-0.016 0.12 0.0" rpy="0 0 0"/>
+  <parent link="RH_femur"/>
+  <child link="RH_tibia"/>
+  <axis xyz="-1.0 -0.0 -0.0"/>
 </joint>
 
 <joint name="RH_foot" type="fixed">
-  <origin xyz="0.032847 0.001043 -0.120918" rpy="0 0 0"/>
-  <parent link="RH_tibia_1"/>
-  <child link="RH_foot_1"/>
+  <origin xyz="0.00925 -0.091861 -0.084717" rpy="0 0 0"/>
+  <parent link="RH_tibia"/>
+  <child link="RH_foot"/>
 </joint>
 
 <joint name="RF_Femur" type="continuous">
   <origin xyz="-0.02975 -0.018 0.0" rpy="0 0 0"/>
-  <parent link="hip_right_v6_1"/>
-  <child link="RF_femur_1"/>
+  <parent link="LH_hip"/>
+  <child link="RF_femur"/>
   <axis xyz="-1.0 0.0 -0.0"/>
 </joint>
 
 <joint name="RF_tibia" type="continuous">
   <origin xyz="-0.016 0.0 -0.12" rpy="0 0 0"/>
-  <parent link="RF_femur_1"/>
-  <child link="RF_tibia_1"/>
+  <parent link="RF_femur"/>
+  <child link="RF_tibia"/>
   <axis xyz="-1.0 0.0 -0.0"/>
 </joint>
 
 <joint name="RF_foot" type="fixed">
   <origin xyz="0.00925 -0.091862 -0.084717" rpy="0 0 0"/>
-  <parent link="RF_tibia_1"/>
-  <child link="RF_foot_1"/>
+  <parent link="RF_tibia"/>
+  <child link="RF_foot"/>
 </joint>
 
 <joint name="LF_tibia" type="continuous">
   <origin xyz="0.016 0.0 -0.12" rpy="0 0 0"/>
-  <parent link="LF_femur_1"/>
-  <child link="LF_tibia_1"/>
+  <parent link="LF_femur"/>
+  <child link="LF_tibia"/>
   <axis xyz="1.0 0.0 -0.0"/>
 </joint>
 
